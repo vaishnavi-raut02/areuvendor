@@ -1,11 +1,9 @@
-// pages/index.js
-
 import React from 'react';
 import Section2 from '../components/Section2';
 
 
 
-const Home = () => {
+const page = () => {
   
   return (
     <>
@@ -32,4 +30,5 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default page;
+
