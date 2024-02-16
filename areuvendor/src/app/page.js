@@ -1,11 +1,9 @@
 // pages/index.js
-
+import Section2 from '@/components/Section2'
 import React from 'react';
-import Section2 from '../components/Section2';
-
-
 
 const Home = () => {
+      
   
   return (
     <>
@@ -15,8 +13,10 @@ const Home = () => {
       topTag="35M Couples love us!"
       title="Boost your business’ credibility"
       description="Build your reputation by investing in wedding advertising on The Knot and WeddingWire, two of the most trusted wedding marketplaces hosting more than 9 million couple reviews."
+      linkHref="our-products/reviews"
       buttonText="Gain your Couple's trust"
       marginTop={10}
+      
     />
        <Section2
       borderColor="purple-700"
@@ -25,6 +25,7 @@ const Home = () => {
       title="Monitor your business growth and advertising with ease&nbsp;"
       description="Our robust Insights tool measures your performance from every interaction to make it easy for you to view, track and understand the ROI of partnering with us."
       buttonText="Understand your ROI"
+      linkHref="our-products/insights"
       marginTop={10}
     />
   
