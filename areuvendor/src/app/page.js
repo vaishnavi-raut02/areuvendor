@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 // pages/index.js
 import Section2 from '@/components/Section2'
+=======
+>>>>>>> 0dfc1e9d4ff1034dc5710fd05ea5a7cd908c8b9b
 import React from 'react';
 
+<<<<<<< HEAD
 const Home = () => {
       
+=======
+const page = () => {
+>>>>>>> 0dfc1e9d4ff1034dc5710fd05ea5a7cd908c8b9b
   
   return (
     <>
@@ -37,4 +44,5 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default page;
+
