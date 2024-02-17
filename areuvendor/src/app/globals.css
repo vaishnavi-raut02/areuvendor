@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-=======
-
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
->>>>>>> 0dfc1e9d4ff1034dc5710fd05ea5a7cd908c8b9b
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
