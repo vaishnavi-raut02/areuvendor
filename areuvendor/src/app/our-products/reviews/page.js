@@ -3,6 +3,7 @@ import Section2page2 from "@/components/Section2page2";
 import Section2page3 from "@/components/Section2page3";
 import Section2page4 from "@/components/Section2page4";
 import Section2page5 from "@/components/Section2page5";
+import Footer from "@/components/Footer";
 import React from "react";
 
 const page = () => {
@@ -57,6 +58,7 @@ const page = () => {
         imageheight5={799}
         imagewidth5={625}
       />
+      <Footer></Footer>
     </>
   );
 };

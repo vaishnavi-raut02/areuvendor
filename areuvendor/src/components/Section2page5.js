@@ -14,7 +14,7 @@ const Section2page5 = ({
   return (
     <>
       <div className="relative pl-4 pr-4 md:mb-20 mt-20">
-        <div className="border-purple-700 border-2 absolute top-28 left-4 md:left-24 right-10 md:right-24 bottom-10 rounded-xl"></div>
+        <div className="border-purple-700 border-2 absolute top-28 left-4 md:left-24 right-10 md:right-24 bottom-6 rounded-xl"></div>
         <div className="bg-white-100 rounded-lg gap-8 md:p-8 md:flex md:items-center md:justify-between">
           <figure className="wp-block-media-text__media relative  md:mr-28 mb-4 md:-mb-8 md:w-1/2 md:order-last">
             <div className="-mt-4 md:-mt-0 drop-shadow-2xl">
@@ -26,10 +26,10 @@ const Section2page5 = ({
               />
             </div>
           </figure>
-          <div className="w-full md:w-1/2 py-14 md:py-28 pl-6 pr-6 md:pl-36 z-20">
-            <h1 className="text-4xl font-semibold mb-8">{title5}</h1>
+          <div className="w-full font-fontbody md:w-1/2 py-10 md:py-28 pl-6 pr-10 md:pl-36 z-20">
+            <h1 className="text-4xl font-bold mb-8">{title5}</h1>
             <p className="text-lg mb-8">{description5}</p>
-            <div className={`bg-white py-2 px-4 rounded-full border border-purple-900 font-semibold text-purple-900 hover:bg-purple-900 hover:ring-purple-900 hover:text-white w-36 mx-auto md:mx-0`}>
+            <div className={`bg-white py-2 px-4 relative rounded-full border border-purple-900 font-bold text-purple-900 hover:bg-purple-900 hover:ring-purple-900 hover:text-white w-36 mx-auto md:mx-0`}>
               <Link href={linkHref5}>{buttonText5}</Link>
             </div>
           </div>

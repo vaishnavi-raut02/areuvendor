@@ -3,6 +3,7 @@ import Section2page2 from "@/components/Section2page2";
 import Section2page3 from "@/components/Section2page3";
 import Section2page4 from "@/components/Section2page4";
 import Section2page5 from "@/components/Section2page5";
+import Footer from "@/components/Footer";
 import React from "react";
 
 const page = () => {
@@ -17,7 +18,7 @@ const page = () => {
         imagesrc2="https://pros.weddingpro.com/wp-content/uploads/2023/10/2_KeyBusiness-1.png"
         title2="Making key business decisions has never been easier"
         description2="Insights is a set of wedding business tools you can use to pulse-check your Storefronts’ analytics, drill down into each platform’s performance and get a deeper understanding of your business insights and lead tracking."
-        linkHref2=""
+        linkHref2="/Footer" //add link to the footer section here so that when user click the button the page should scrool down on the footer section
         buttonText2="Learn more"
         imagewidth2={570}
         imageheight2={200}
@@ -51,6 +52,7 @@ const page = () => {
         imageheight5={799}
         imagewidth5={625}
       />
+      <Footer></Footer>
     </>
   );
 };
